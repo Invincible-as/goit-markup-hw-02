@@ -1,0 +1,146 @@
+:root {
+    --primery-text-color: #212121;
+    --titel-text-color: #757575;
+    --accent-color: #2196F3;
+    --stock-color: #FFFFFF;
+    --logo-color: #000000;
+    --hero-color: #2F303A;
+    --tem-color: #F5F4FA;
+    --footer-color: rgba(255, 255, 255, 0.6);
+}
+
+.page {
+    background-color: var(--stock-color);
+    color: var(--primery-text-color);
+
+}
+
+.list
+ {
+    list-style: none;
+}
+
+
+/* цвет основного текста черный #212121 */
+/* вторичный цвет серый #757575 */
+/* акцент голубой цвет #2196F3 */
+/* белый цвет #FFFFFF */
+
+
+/* вторичный цвет фона темно серый #2F303A */
+/* вториный цвет фона серый #F5F4FA */
+
+.header {
+    background-color: var(--stock-color);
+}
+
+.logo {
+    color: var(--logo-color);
+}
+
+.logo-web {
+    color: var(--accent-color);
+}
+
+/* Site nave */
+
+
+
+.site-nav .link:hover,
+.site-nav .link:focus
+{
+    color: var(--accent-color);
+}
+
+.site-nav .link .current { color: var(--accent-color);
+
+}
+
+/* Auth nave */
+
+.auth-nav
+{
+    color: var(--titel-text-color);
+}
+
+.auth-nav .auth-link:hover,
+.auth-nav .auth-link:focus 
+{
+    color: var(--accent-color);
+}
+
+/* Hero */
+
+.hero {
+    background-color: var(--hero-color);
+}
+
+.hero-titel {
+    color: var(--stock-color);
+}
+
+.button { color: var(--stock-color);
+    background-color: var(--accent-color);
+}
+
+/* .button.pramery {
+    color: var(--stock-color);
+        background-color: var(--accent-color);
+
+} */
+
+
+
+/* Section */
+
+.section-titel {
+   color: var(--primery-text-color);
+}
+
+
+/* Sentence < !--Предложение--> */
+
+.section-list .titel {
+    color: var(--primery-text-color);
+
+}
+.title-list {
+    color: var(--titel-text-color);
+    
+}
+
+/* Team */
+
+.team {
+    background-color: var(--tem-color);
+}
+
+.team-list .team-title { color: var(--primery-text-color);
+
+}
+
+.team-list .work-title {
+    color: var(--titel-text-color)
+}
+
+/* Footer */
+
+.footer {
+    background-color: var(--hero-color);
+}
+
+.logo-footer {
+    color: var(--stock-color)
+}
+
+.logo-web-footer {
+    color: var(--accent-color);
+}
+.tel {
+    color: var(--stock-color)
+}
+
+.mail,
+.adress {
+    color: var(--footer-color);
+}
