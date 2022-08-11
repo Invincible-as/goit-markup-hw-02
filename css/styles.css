@@ -237,21 +237,13 @@ font-weight: 700;
         font-style: normal;
 }
 
-.adress:hover,
-.adress:focus 
+.footer-link:hover,
+.footer-link:focus 
 {
     color: var(--accent-color);
 }
 
-.tel:hover,
-.tel:focus {
-    color: var(--accent-color);
-}
 
-.mail:hover,
-.mail:focus {
-    color: var(--accent-color);
-}
 /* Portfolio.html */
 
 /* Portfolio-section */
