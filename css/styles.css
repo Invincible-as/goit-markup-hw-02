@@ -189,7 +189,7 @@ font-weight: 700;
 }
 
 .team-list .work-title {
-    color: var(--titel-text-color)
+    color: var(--titel-text-color);
     font-weight: 400;
         font-size: 16px;
         line-height: 1.2;
