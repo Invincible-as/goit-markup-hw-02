@@ -71,9 +71,12 @@
 .site-nav .link:focus
 {
     color: var(--accent-color);
+ 
+    
 }
 
 .site-nav .link-current { color: var(--accent-color);
+text-decoration: none;
 
 }
 
@@ -81,7 +84,7 @@
 
 .auth-nav .auth-link
 {
-color: var(--hero-color);
+color: var(--titel-text-color);
 font-weight: 500;
     font-size: 14px;
     line-height: 1.1;
@@ -202,24 +205,25 @@ font-weight: 700;
 
 .logo-footer {
     color: var(--stock-color);
-    font-weight: 700;
+    font-family: Raleway, cursive;
+        font-weight: 700;
         font-size: 26px;
-        line-height: 1.2;
+        line-height: 1;
         text-decoration: none;
      
 }
 
 .logo-web-footer {
     color: var(--accent-color);
+   
 }
-.adress  {
+.adress  { 
     color: var(--stock-color);
     font-weight: 400;
         font-size: 14px;
         line-height: 1.7;
         text-decoration: none;
-        
-     
+    font-style: normal;
     
 }
 
@@ -230,8 +234,24 @@ font-weight: 700;
         font-size: 14px;
         line-height: 1.7;
         text-decoration: none;
+        font-style: normal;
 }
 
+.adress:hover,
+.adress:focus 
+{
+    color: var(--accent-color);
+}
+
+.tel:hover,
+.tel:focus {
+    color: var(--accent-color);
+}
+
+.mail:hover,
+.mail:focus {
+    color: var(--accent-color);
+}
 /* Portfolio.html */
 
 /* Portfolio-section */
@@ -275,6 +295,4 @@ font-weight: 500;
         font-size: 16px;
         line-height: 2;
         
-  
-       
 }
